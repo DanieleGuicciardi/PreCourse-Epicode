@@ -1,6 +1,6 @@
-#ASSIGNMENT
+# ASSIGNMENT
 
-##Crea la tua prima pagina HTML
+## Crea la tua prima pagina HTML
 
 Utilizza tutti i tag che hai imparato per creare la tua “pagina di presentazione”
 La pagina deve contenere una tua immagine, una lista di hobbies e interessi
