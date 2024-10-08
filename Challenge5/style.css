@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+
+.icon{
+    padding: 2em;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icon p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#topbar {
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logoyt {
+    height: 40%;
+    margin: 2em;
+}
+
+#searchbar {
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+#searchbar input {
+    font-size: 2em;
+    height: 0.7em;
+}
+
+#searchbar ion-icon{
+    font-size: 1.4em;
+}
+
+#account {
+    padding: 0.8em;
+    font-size: 2em;
+}
+
+#account ion-icon {
+    margin: 10px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+#content div {
+    flex-basis: calc(33.333% - 20px); 
+    text-align: left; 
+}
+
+#content img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.epicodelogo {
+    display: flex;
+    width: 60px; 
+    height: auto;
+    gap: 20px;
+}
+
+.epicodelogo h3 {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.epicodelogo p {
+    margin: 0;
+    display: flex;
+    align-items: center; 
+}
